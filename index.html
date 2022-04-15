@@ -6,14 +6,10 @@
     <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
     <meta name="theme-color" content="#000000">
     <title>React App</title>
-    <script 
-        defer="defer" 
-        type="application/javascript"
-        src="/xw2v_graph/static/js/main.be7a7e79.js"
-        ></script>
+    <script defer="defer" src="/xw2v_graph/static/js/main.be7a7e79.js"></script>
 </head>
 
-<body>  
+<body>
     <!doctype html>
     <html lang="en">
 
@@ -43,13 +39,20 @@
             #search {
                 position: absolute;
                 right: 1em;
-                top: 1em
+                top: 5em
             }
 
             #controls {
                 position: absolute;
                 right: 1em;
-                top: 5em;
+                top: 1em;
+                text-align: right
+            }
+
+            #reset {
+                position: absolute;
+                left: 1em;
+                top: 1em;
                 text-align: right
             }
 
@@ -92,6 +95,10 @@
         <div id="sigma-container"></div>
         <div id="search"><input type="search" id="search-input" list="suggestions"
                 placeholder="Try searching for a node..." /><datalist id="suggestions"></datalist></div>
+        <div id="reset">
+            <div class="input"><label for="reset">Reset</label><button style="width:auto" id="reset">RESET</button>
+            </div>
+        </div>
         <div id="controls">
             <div class="input"><label for="zoom-in">Zoom in</label><button id="zoom-in">+</button></div>
             <div class="input"><label for="zoom-out">Zoom out</label><button id="zoom-out">-</button></div>
