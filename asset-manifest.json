@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/static/js/main.949f7501.js",
-    "index.html": "/index.html",
-    "main.949f7501.js.map": "/static/js/main.949f7501.js.map"
+    "main.js": "/xw2v_graph/static/js/main.812304bf.js",
+    "index.html": "/xw2v_graph/index.html",
+    "main.812304bf.js.map": "/xw2v_graph/static/js/main.812304bf.js.map"
   },
   "entrypoints": [
-    "static/js/main.949f7501.js"
+    "static/js/main.812304bf.js"
   ]
 }
