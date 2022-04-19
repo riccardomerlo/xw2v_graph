@@ -1,0 +1,38 @@
+{
+  "name": "xwv2-graph",
+  "version": "0.0.1",
+  "description": "This example loads a GEXF graph file and displays it with a few classic interactive features.",
+  "main": "index.ts",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
+  },
+  "license": "MIT",
+  "homepage": "https://riccardomerlo.github.io/xw2v_graph",
+  "dependencies": {
+    "gh-pages": "^3.2.3",
+    "graphology": "^0.23.2",
+    "graphology-gexf": "^0.9.0",
+    "nodemon": "^2.0.15",
+    "sigma": "^2.3.0"
+  },
+  "devDependencies": {
+    "react-scripts": "^5.0.1",
+    "typescript": "4.4.4"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
