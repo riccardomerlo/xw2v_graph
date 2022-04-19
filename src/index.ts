@@ -118,7 +118,7 @@ fetch("https://raw.githubusercontent.com/riccardomerlo/xw2v_graph/main/src/publi
 
   btnColors.innerHTML = [...colorsSet]
     .map(
-      (elem, i) => `<button value = ${i} style="background-color: ${getRGB(elem as string)}" id=${i} >${i}</button>`
+      (elem, i) => `<button class="Button" value = ${i} style="background-color: ${getRGB(elem as string)}" id=${i} >${i}</button>`
     )
     .join("\n");
     //
@@ -134,6 +134,8 @@ fetch("https://raw.githubusercontent.com/riccardomerlo/xw2v_graph/main/src/publi
       
     })
     state.hoveredNeighbors = neighbours;
+    // Refresh rendering:
+    renderer.refresh();
   })
 
 
